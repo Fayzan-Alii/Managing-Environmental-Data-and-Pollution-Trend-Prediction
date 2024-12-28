@@ -1,0 +1,13 @@
+.env
+venv/
+*.csv
+data/raw/*.csv
+run.py
+# Ignore DVC configuration and cache files
+.dvc/
+.dvcignore
+.dvc/config
+.dvc/cache/
+/data
+/mlruns
+scripts/__pycache__/
